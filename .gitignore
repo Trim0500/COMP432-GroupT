@@ -204,6 +204,7 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jupyternotebooks,python
+Datasets/Corolectal Cancer/** 
 Datasets/Corolectal Cancer/.DS_Store
 Datasets/Corolectal Cancer/MUS/.DS_Store
 Datasets/Corolectal Cancer/MUS/MUS-AADGLEEQ.tif
