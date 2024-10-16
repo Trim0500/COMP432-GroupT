@@ -15,8 +15,12 @@
 ---
 
 ## Required Libraries
-- [`torch`](https://pytorch.org/docs/stable/index.html)
-- [`torchvision`](https://pytorch.org/vision/stable/)
+- ### **[`torch`](https://pytorch.org/docs/stable/index.html)**
+- ### **[`torchvision`](https://pytorch.org/vision/stable/)**
+- ### **[`numpy`](https://numpy.org/install/)**
+- ### **[`sklearn`](https://scikit-learn.org/stable/install.html)**
+- ### **[`matplotlib`](https://matplotlib.org/stable/#install)**
+- ### **[`ray[tune]`](https://docs.ray.io/en/latest/ray-overview/installation.html)**
 
 ---
 
