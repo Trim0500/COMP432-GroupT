@@ -6213,4 +6213,3 @@ Datasets/Corolectal Cancer/STR/STR-ERHYRPTP.tif
 Datasets/Animal Faces/**
 
 Models/ResNet_Momentum_Corolectal_Cancer_pre_trained.tar
-Models/ResNet_Rmsprop_Corolectal_Cancer_pre_trained.tar
