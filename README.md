@@ -1,5 +1,5 @@
 # COMP432 Project
-- High level description/presentation of the project
+- **[High level description/presentation of the project]**
 ---
 ---
 ### Authors
@@ -33,11 +33,11 @@
 ---
 ---
 ### Training and Validating the Model
-- Instruction on how to train/validate your model
+- **[Instruction on how to train/validate your model]**
 ---
 ---
 ### How to Test the Pre-trained Model
-- Instructions on how to run the pre-trained model on the provided sample test dataset
+- **[Instructions on how to run the pre-trained model on the provided sample test dataset**]
 ---
 ---
 ### Obtaining the Datasets
