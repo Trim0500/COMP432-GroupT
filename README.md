@@ -1,6 +1,41 @@
 # COMP432 Project
-- **[High level description/presentation of the project]**
----
+
+# Project Description
+
+This project uses deep learning in computer vision to solve two image classification tasks using Convolutional Neural Networks (CNNs). The primary focus is on applying a CNN backbone architecture to classify images from two real-world datasets.
+
+### Task 1: Training a CNN for Colorectal Cancer Classification
+We trained a CNN model (ResNet50) on the Colorectal Cancer dataset to classify tissue types into three categories:
+- Smooth muscle (MUS)
+- Normal colon mucosa (NORM)
+- Cancer-associated stroma (STR)
+
+We experimented by training and tuning the model's hyperparameters, evaluating the model performance using common evaluation metrics, then visualized feature extraction using t-SNE plots to analyze class separability.
+
+### Task 2: Transfer Learning on Prostate Cancer and Animal Faces Datasets
+The trained CNN encoder from Task 1 and a pre-trained ImageNet encoder were applied to:
+- Prostate Cancer Classification: Classifying tissue types into Prostate Cancer Tumor Tissue, Benign Glandular Prostate Tissue, and Benign Non-Glandular Prostate Tissue.
+- Animal Faces Classification: Classifying images into Cats, Dogs, and Wildlife Animals.
+
+We used transfer learning to analyze feature representations, visualized feature extraction with t-SNE, then used logistic regression to classify the extracted features for each dataset.
+
+## Results
+
+### Colorectal Cancer Training Results
+
+Using ResNet50 with the RMSProp optimizer showed the best performance:
+- **Validation Accuracy:** Reached 93.75% after 10 epochs.
+- **t-SNE Visualization:** Displayed strong class separability for all three classes.
+
+### Prostate Cancer Transfer Learning Results
+
+- **ImageNet Model:** Achieved near-perfect classification with clear class separability in t-SNE plots.
+- **Colorectal Cancer Model:** Effectively separated the tumor class, but struggled with the non-gland and gland tissue types.
+
+### Animal Faces Transfer Learning Results
+
+- **ImageNet Model:** Produced high-quality features with clear class separation in t-SNE plots.
+- **Colorectal Cancer Model:** Struggled with feature extraction, leading to mixed class embeddings in t-SNE and poor logistic regression performance (50% accuracy).
 ---
 ### Authors
 - Tristan Lafleur (40245238)
